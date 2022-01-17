@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
+
+*{
+
+    margin: 0;
+    padding:0;
+
+}
+
+body{
+
+    overflow-x: hidden;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+#navBar{
+
+    width: 100%;
+    height: 80px;
+    background-color: #1E1E1E;
+    position: fixed; 
+    top: -25px;
+    z-index: 10;
+    
+}
+
+
+#flarisMain{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images_Flaris/header_banner_home_filtr.jpg);
+    background-size: cover;
+    background-position: 75% 100%;
+    position: relative;
+    
+    
+}
+
+
+#nav1{
+
+    color: #ffffff;
+    word-spacing: 50px;
+    font-size: 13px;
+    position: relative;
+    left: 510px;
+    top: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+li{
+    display: inline;
+
+}
+
+
+li:hover{
+
+    border-bottom: 2px solid red;
+    
+}
+
+
+#headingFlaris{
+
+    height: 120px;
+    width: 100%;
+    background-color: #1E1E1E;
+    position: relative;
+
+}
+
+.blueHeading1{
+
+    color: #00aaff;
+    font-size: 27px;
+    position: absolute;
+    top: 10px;
+    left: 600px;
+    font-family: sans-serif;
+    word-spacing: 5px;
+    font-weight: 700;
+
+}   
+
+.whiteHeading1{
+
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 270px;
+    top: 70px
+
+}
+
+#innovationB{
+
+    width: 100%;
+    height: 700px;
+    background-image: url(./images_Flaris/2ndBackgroundimage.jpg);
+    background-size: cover;
+    background-position: 100% 100%;
+    position: relative;
+
+}
+
+.innoHeading1{
+
+    color: #333;
+    font-family: sans-serif;
+    word-spacing: 5px;
+    font-weight: 700;
+    font-size: 30px;
+    position: absolute;
+    top: 60px;
+    left: 400px;
+
+}
+
+.para1{
+
+    font-size: 17px;
+    font-weight: 600;
+    color: #666;
+    line-height: 1.7em;
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    text-align: center;
+
+}
+
+.para2{
+
+    position: absolute;
+    top: 200px;
+
+}
+
+
+#lowCost{
+
+    background-color: #FFFFFF;
+    height: 950px;
+    width: 100%;
+    position: relative;
+
+}
+
+.low1{
+
+    position: absolute;
+    left: 350px;
+}
+
+.para3{
+
+    position: absolute;
+    line-height: 1.4em;
+    top: 130px;
+}
+
+
+.box1A{
+
+    height: 80px;
+    width: 90%;
+    /* border: 2px solid; */
+    position: absolute;
+    top: 300px;
+    left: 60px;
+}
+
+
+
+.box1{
+
+    height: 80px;
+    width: 90%;
+    border: 2px solid;
+    position: absolute;
+    top: 300px;
+    left: 60px;
+}
+
+.heading1{
+
+    display: inline-block;
+    font-family: sans-serif;
+    color: #515254;
+   /* border: 2px solid ; */
+    /* position: relative; */
+    /* left: 200px; */
+    box-sizing: border-box;
+    /* padding-left: 200px; */
+    padding-top: 30px;
+    
+     /* margin-left: 00px; */
+}
+
+.box2{
+
+    position: absolute;
+    top: 400px;
+    border: 1px solid #CCCCCC
+}
+
+.hEdit2{
+
+    padding-left: 20px;
+
+}
+
+.hEdit3{
+
+    padding-left: 300px;
+}
+
+.hEdit4{
+
+    padding-left: 240px;
+}
+
+.box3{
+
+    position: absolute;
+    top: 500px;
+    border: 1px solid #CCCCCC
+}
+
+.heading2{
+
+    display: inline-block;
+    font-family: sans-serif;
+    color: rgb(81, 82, 84);
+    font-weight: 500;
+   /* border: 2px solid ; */
+    /* position: relative; */
+    /* left: 200px; */
+    box-sizing: border-box;
+    /* padding-left: 200px; */
+    padding-top: 30px;
+    
+     /* margin-left: 00px; */
+}
+
+.hEdit5{
+
+    padding-left: 280px;
+}
+
+.box4{
+
+    position: absolute;
+    top: 600px;
+    border: 1px solid #CCCCCC
+}
+
+
+.box5{
+
+    position: absolute;
+    top: 700px;
+    border: 1px solid #CCCCCC
+}
+
+.hEdit6{
+
+    padding-left: 230px;
+}
+
+.hEdit7{
+
+    padding-left: 240px;
+}
+
+.box6{
+
+
+    position: absolute;
+    top: 800px;
+    border: 1px solid #CCCCCC
+    
+
+}
+
+#FLandLAR{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images_Flaris/flarislar01_filtr.jpg);
+    background-size: cover;
+    background-position: 75% 100%;
+    position: relative;
+
+}
+
+#headingFlarisB{
+
+    height: 120px;
+    width: 100%;
+    background-color: #1E1E1E;
+    position: relative;
+
+}
+
+
+.innoHeading2{
+
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    word-spacing: 5px;
+    font-weight: 510;
+    font-size: 30px;
+    position: absolute;
+    top: 60px;
+    left: 500px;
+
+}
+
+
+.para4{
+
+    font-size: 17px;
+    font-weight: 600;
+    color:rgb(255, 255, 255);
+    line-height: 1.7em;
+    position: absolute;
+    top: 10px;
+    left: 350px;
+    text-align: center;
+
+}
+
+
+#headingFlarisC{
+
+    height: 220px;
+    width: 100%;
+    background-color: #1E1E1E;
+    position: relative;
+
+}
+
+.box1Square{
+
+    height: 150px;
+    width: 250px;
+    /* border: 2px solid yellowgreen;  */
+    position: relative;
+    top: 0px;
+    left: 350px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+
+.innoHeading3{
+
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    word-spacing: 3px;
+    font-weight: 540;
+    font-size: 27px;
+    position: absolute;
+    top: 5px;
+    left: 27px;
+    
+
+}
+
+.button1{
+
+    height: 50px;
+    width: 230px;
+    background-color: #1E1E1E;
+    border: 1px solid #00aaff;
+    position: absolute;
+    top: 70px;
+    left: 8px;
+    color: #00aaff;
+    font-size: 1em;
+    font-weight: 570px;
+    cursor: pointer;
+}
+
+.button1:hover{
+
+    background-color: #00aaff;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.box2Square{
+
+    height: 150px;
+    width: 250px;
+    /*  border: 2px solid yellowgreen;  */
+    position: relative;
+    top: 0px;
+    left: 450px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#newsPress{
+
+    height: 450px;
+    width: 100%;
+    background-color:#08AAFD;
+    position: relative;
+}
+
+.innoHeading4{
+
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    word-spacing: 3px;
+    font-weight: 540;
+    font-size: 27px;
+    position: absolute;
+    top: 5px;
+    left: 9px;
+    
+}
+
+.innoHeading5{
+
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    word-spacing: 3px;
+    font-weight: 543;
+    font-size: 27px;
+    position: absolute;
+    top: 170px;
+    left: 440px; 
+    
+
+}
+
+.button2{
+
+    height: 50px;
+    width: 230px;
+    background-color: #00aaff;
+    border: 1px solid white;
+    position: absolute;
+    top: 250px;
+    left: 550px;
+    color: white;
+    font-size: 1em;
+    font-weight: 570px;
+    cursor: pointer;
+}
+
+.button2:hover{
+
+    background-color: rgb(255, 255, 255);;
+    color: #00aaff;
+    
+}
+
+#emailSign{
+
+    height: 600px;
+    width: 100%;
+    background-color: #1E1E1E;
+    position: relative;
+
+}
+
+
+
+#listDiv{
+
+    height: 390px;
+    width: 630px;
+    top: 80px;
+    /* border: 2px solid yellowgreen; */
+    position: absolute;
+    left: 630px;
+
+
+}
+
+.list1a{
+
+    color:rgb(255, 255, 255);
+    position: relative;
+    top: 10px;
+    float: left; 
+    padding-left: 40px;
+
+}
+.list1b{
+    margin-left: 110px;
+}
+
+.list1c{
+
+    color:rgb(255, 255, 255);
+    position: relative;
+    top: 110px;
+    left: -90px;
+    font-size: 22px;
+
+}
+
+.input1E{
+
+    height: 50px;
+    width: 550px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 250px;
+    left: 40px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1em;
+
+}
+
+
+.button3{
+
+    height: 50px;
+    width: 575px;
+    background-color: #1E1E1E;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 320px;
+    left: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 570px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button3:hover{
+
+    background-color: #666;
+    color: rgb(255, 255, 255);
+    
+}
+
+#bottomGreyline{
+
+    height: 0px; 
+    width: 1190px;
+    border: 0.75px solid rgb(255, 255, 255); 
+    position: absolute;
+    top: 500px;
+    left: 75px;
+
+}
+
+.copyR{
+
+    color: rgb(204, 204, 204);
+    font-size: 1em;
+    position: absolute;
+    top: 520px;
+    left: 75px;
+    font-weight: 700;
+}
+
+.fa-youtube-square{
+
+    font-size: 3em;
+    color: #666;
+    position: absolute;
+    top: 520px;
+    left: 1230px;
+    cursor: pointer;
+
+}
+
+
+.fa-facebook-square{
+
+    font-size: 3em;
+    color: #666;
+    position: absolute;
+    top: 520px;
+    left: 1180px;
+    cursor: pointer;
+
+}
+
+
+

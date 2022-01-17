@@ -1,0 +1,1427 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');
+
+*{
+
+    margin: 0;
+    padding:0;
+
+}
+
+body{
+
+    overflow-x: hidden;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+#navBar{
+
+    width: 100%;
+    height: 80px;
+    background-color: #1E1E1E;
+    position: fixed; 
+    top: -25px;
+    z-index: 10;
+    
+}
+
+
+#nav1{
+
+    color: #ffffff;
+    word-spacing: 50px;
+    font-size: 13px;
+    position: relative;
+    left: 510px;
+    top: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+li{
+    display: inline;
+
+}
+
+
+li:hover{
+
+    border-bottom: 2px solid red;
+    
+}
+
+#headingFlaris{
+
+    height: 120px;
+    width: 100%;
+    background-color: #1E1E1E;
+    position: relative;
+
+}
+
+#flarisMain{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images_Flaris/flarislar01_filtr.jpg);
+    background-size: cover;
+    background-position: 75% 100%;
+    position: relative;
+    
+    
+}
+
+
+.blueHeading1{
+
+    color: #00aaff;
+    font-size: 27px;
+    position: absolute;
+    top: 10px;
+    left: 460px;
+    font-family: 'Barlow', sans-serif;
+    word-spacing: 5px;
+    font-weight: 700;
+
+}   
+
+.whiteHeading1{
+
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 230px;
+    top: 70px
+
+}
+
+#whitebarList{
+
+    height: 100px;
+    width: 100%;
+    background-color: #E0F1FBFF;
+    position: relative;
+
+}
+
+.whitebarNav{
+
+    float: left;
+    color: rgb(76,76,76);
+    font-size: 13px;
+    position: absolute;
+    left: 520px;
+    top: 40px;
+    word-spacing: 15px;
+    cursor: pointer;
+    
+}
+
+
+#flarislar01{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image_Aircraft/flarisBellyimages.jpg);
+    background-size: cover;
+    background-position: 75% 20%;
+    position: relative;
+    
+    
+}
+
+#blueBar{
+
+    height: 210px;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+
+
+}
+
+.innoHeading1{
+
+    color: #333;
+    font-family: 'Barlow',sans-serif;
+    word-spacing: 5px;
+    font-weight: 700;
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    left: 560px;
+
+}
+
+.para1{
+
+    font-size: 17px;
+    /* font-weight: 400; */
+    color: #666;
+    line-height: 1.7em;
+    position: absolute;
+    top: 100px;
+    left: 330px;
+    text-align: center;
+
+}
+
+
+#features1{
+
+    height: 1100px;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+    top: -80px;
+    
+    
+
+}
+
+#leftgreyBox{
+
+    height: 400px;
+    width: 500px;
+    border: 2px solid rgb(204,204,204);
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    display: inline-block;
+    
+}
+
+#rightgreyBox{
+
+    height: 400px;
+    width: 650px;
+    border: 2px solid rgb(204,204,204);
+    position: absolute;
+    top: 200px;
+    left: 620px;
+    display: inline-block;
+    
+
+}
+
+#leftgreyBox2{
+
+    height: 400px;
+    width: 650px;
+    border: 2px solid rgb(204,204,204);
+    position: absolute;
+    top: 675px;
+    left: 80px;
+    display: inline-block;
+    
+
+}
+
+#rightgreyBox2{
+
+    height: 400px;
+    width: 500px;
+    border: 2px solid rgb(204,204,204);
+    position: absolute;
+    top: 675px;
+    left: 772px;
+    display: inline-block;
+    
+}
+
+.image1air{
+
+    height: 400px;
+    width: 650px;
+}
+
+.innoHeading2{
+
+    color: rgb(51,51,51);
+    font-family: 'Barlow',sans-serif;
+    word-spacing: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    position: absolute;
+    top: 80px;
+    left: 60px;
+
+}
+
+.para2{
+
+    font-size: 17px;
+    /* font-weight: 400; */
+    color: #666;
+    line-height: 1.7em;
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    text-align: center;
+
+}
+
+.innoH2B{
+
+    text-align: left;
+}
+
+.para2B{
+
+    top: 140px;
+    text-align: left;
+
+}
+
+
+#cockpitGrey{
+
+    width: 100%;
+    height: 800px;
+    background-image: url(./image_Aircraft/flarisCockpitdark.jpg);
+    background-size: cover;
+    background-position: 75% 50%;
+    position: relative;
+    
+    
+}
+
+.circle1{
+
+    position: absolute;
+    top: 570px;
+    left: 200px;
+
+}
+
+.circle2{
+
+    position: absolute;
+    top: 320px;
+    left: 430px;
+
+}
+
+.circle3{
+
+    position: absolute;
+    top: 530px;
+    left: 650px;
+
+}
+
+
+.circle4{
+
+    position: absolute;
+    top: 380px;
+    left: 730px;
+
+}
+
+
+.circle5{
+
+    position: absolute;
+    top: 410px;
+    left: 1020px;
+
+}
+
+
+.innoH3B{
+
+    color: #ffffff;
+    
+}
+
+.para1B{
+
+    color: #ffffff;
+    left: 260px;
+    
+}
+
+.para1C{
+
+    /* color: #ffffff; */
+    left: 240px;
+    
+}
+
+#leftgreyBox2A{
+
+    height: 600px;
+    width: 700px;
+    border: 2px solid rgb(204,204,204);
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    display: inline-block;
+    
+}
+
+
+#rightgreyBox2A{
+
+    height: 600px;
+    width: 450px;
+    border: 2px solid rgb(204,204,204);
+    position: absolute;
+    top: 200px;
+    left: 802px;
+    display: inline-block; 
+    
+}
+
+.innoH2C{
+
+    top: 430px;
+}
+
+.para2C{
+
+top: 460px;
+
+}
+
+.image1{
+
+    height: 450px;
+    width: 525px;
+}
+
+
+.image1A{
+
+    height: 600px;
+    width: 700px;
+}
+
+
+#leftgreyBoxA{
+
+    height: 400px;
+    width: 450px;
+    border: 2px solid rgb(204,204,204);
+    position: absolute;
+    top: 900px;
+    left: 80px;
+    display: inline-block;
+    
+}
+
+#rightgreyBoxA{
+
+    height: 400px;
+    width: 650px;
+    border: 2px solid rgb(204,204,204);
+    position: absolute;
+    top: 900px;
+    left: 610px;
+    display: inline-block;
+    
+
+}
+
+#safety1{
+
+    height: 1300px;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+    top: -80px;
+    
+    
+
+}
+
+.para2E{
+
+    text-align: left;
+}
+
+
+#fuselageGrey{
+
+    width: 100%;
+    height: 800px;
+    background-image: url(./image_Aircraft/flarisfuselage.jpg);
+    background-size: cover;
+    background-position: 45% 45%;
+    position: relative;
+    
+    
+}
+
+.para1C{
+
+    
+    left: 230px;
+    
+}
+
+.circle1A{
+
+    /* position: absolute; */
+    top: 450px;
+    left: 200px;
+
+}
+
+.circle2A{
+
+    position: absolute;
+    top: 350px;
+    left: 430px;
+
+}
+
+.circle3A{
+
+    position: absolute;
+    top: 510px;
+    left: 760px;
+
+}
+
+
+.circle4A{
+
+    position: absolute;
+    top: 440px;
+    left: 1080px;
+
+}
+
+.para1D{
+
+    
+    left: 230px;
+    color: #ffffff;
+}
+
+#propulsion1{
+    height: 1000px;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;  
+
+}
+
+.propH{
+
+  top: 60px;  
+}
+
+.paraProp{
+
+    top: 120px;
+    left: 200px;
+    font-family: Arial;
+}
+
+#leftgreyBoxProp{
+
+    height: 550px;
+    width: 450px;
+    border: 2px solid rgb(204,204,204);
+    position: absolute;
+    top: 350px;
+    left: 80px;
+    display: inline-block;
+    
+}
+
+#rightgreyBoxProp{
+
+    height: 550px;
+    width: 725px;
+    border: 2px solid rgb(204,204,204);
+    position: absolute;
+    top: 350px;
+    left: 580px;
+    display: inline-block;
+    
+}
+
+.image2{
+
+    height: 550px;
+    width: 725px;
+}
+
+#exteriorDesign{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image_Aircraft/flarisaircraft1.jpg);
+    background-size: cover;
+    background-position: 45% 45%;
+    position: relative; 
+    
+}
+
+.ED1{
+
+    top: 50px;
+}
+
+.paraED1{
+
+    top: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.circle1B{
+
+    /* position: absolute; */
+    top: 450px;
+    left: 170px;
+
+}
+
+.circle2B{
+
+    position: absolute;
+    top: 370px;
+    left: 750px;
+
+}
+
+.circle3B{
+
+    position: absolute;
+    top: 410px;
+    left: 620px;
+
+}
+
+
+.circle4B{
+
+    position: absolute;
+    top: 540px;
+    left: 1000px;
+
+}
+
+#specification1{
+
+    width: 100%;
+    height: 75vh;
+    background-image: url(./image_Aircraft/specificationBackground.jpg);
+    background-size: cover;
+    background-position: 100% 100%;
+    position: relative; 
+}   
+
+#whiteBackground{
+
+    height: 180PX;
+    width: 100%;
+    color:rgb(255, 255, 255);
+    position: relative;
+
+}
+
+.specH1{
+
+    top: 80px;
+
+}
+
+
+#leftgreyBoxSpec{
+
+    height: 400px;
+    width: 300px;
+    border: 2px solid rgb(204,204,204);
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    display: inline-block;
+    
+}
+
+
+#FLandLAR{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images_Flaris/flarislar01_filtr.jpg);
+    background-size: cover;
+    background-position: 75% 100%;
+    position: relative;
+
+}
+
+.para4{
+
+    font-size: 17px;
+    font-weight: 600;
+    color:rgb(255, 255, 255);
+    line-height: 1.7em;
+    position: absolute;
+    top: 10px;
+    left: 350px;
+    text-align: center;
+
+}
+
+#headingFlarisB{
+
+    height: 700px;
+    width: 100%;
+    background-color: #1E1E1E;
+    position: relative;
+
+}
+
+.HeadingFLandLAR{
+
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    word-spacing: 5px;
+    font-weight: 510;
+    font-size: 30px;
+    position: absolute;
+    top: 650px;
+    left: 500px;
+
+}
+
+
+#headingFlarisC{
+
+    height: 220px;
+    width: 100%;
+    background-color: #1E1E1E;
+    position: relative;
+
+}
+
+
+.box1Square{
+
+    height: 150px;
+    width: 250px;
+    /* border: 2px solid yellowgreen;  */
+    position: relative;
+    top: 0px;
+    left: 350px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+
+.HeadingLAR01{
+
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    word-spacing: 3px;
+    font-weight: 540;
+    font-size: 27px;
+    position: absolute;
+    top: 5px;
+    left: 27px;
+    
+
+}
+
+
+.button1{
+
+    height: 50px;
+    width: 230px;
+    background-color: #1E1E1E;
+    border: 1px solid #00aaff;
+    position: absolute;
+    top: 70px;
+    left: 8px;
+    color: #00aaff;
+    font-size: 1em;
+    font-weight: 570px;
+    cursor: pointer;
+}
+
+
+.box2Square{
+
+    height: 150px;
+    width: 250px;
+    /*  border: 2px solid yellowgreen;  */
+    position: relative;
+    top: 0px;
+    left: 450px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+
+.HeadingPilot{
+
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    word-spacing: 3px;
+    font-weight: 540;
+    font-size: 27px;
+    position: absolute;
+    top: 5px;
+    left: 9px;
+    
+}
+
+.button1:hover{
+
+    background-color: #00aaff;
+    color: rgb(255, 255, 255);
+    
+}
+.filled_circle{
+    position: relative;
+    left: -55px;
+    opacity: 0;
+}
+.circle1:hover .filled_circle{
+    opacity: 1;
+}
+.circle1_para{
+    border:1px solid ;
+    position: relative;
+    background: white;
+    color: black;
+    top: -40px;
+    left: 60px;
+    opacity: 0;
+}
+.circle1:hover .circle1_para{
+    opacity: 1;
+}
+
+
+.specHeading2{
+
+    color: rgb(51,51,51);
+    font-family: 'Barlow',sans-serif;
+    word-spacing: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    position: absolute;
+    top: 80px;
+    left: 60px;
+
+}
+
+.spec1{
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    line-height: 1.7em; 
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    /* text-align: center; */
+    letter-spacing: 1px;
+}
+
+.spec1A{
+
+    top: 55px;
+    font-weight: bold;
+}
+
+#line1{
+
+    height: 0px;
+    width: 30px;
+    border: 1px solid #666;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+
+}
+
+.spec2{
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    line-height: 1.7em; 
+    position: absolute;
+    top: 120px;
+    left: 40px;
+    /* text-align: center; */
+    letter-spacing: 1px;
+}
+
+.spec2A{
+
+    top: 145px;
+    font-weight: bold;
+}
+
+#line2{
+
+    height: 0px;
+    width: 30px;
+    border: 1px solid #666;
+    position: absolute;
+    top: 190px;
+    left: 40px;
+
+}
+
+.spec3{
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    line-height: 1.7em; 
+    position: absolute;
+    top: 210px;
+    left: 40px;
+    /* text-align: center; */
+    letter-spacing: 1px;
+}
+
+.spec3A{
+
+    top: 235px;
+    font-weight: bold;
+}
+
+#line3{
+
+    height: 0px;
+    width: 30px;
+    border: 1px solid #666;
+    position: absolute;
+    top: 280px;
+    left: 40px;
+
+}
+
+.spec4{
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    line-height: 1.7em; 
+    position: absolute;
+    top: 310px;
+    left: 40px;
+    /* text-align: center; */
+    letter-spacing: 1px;
+}
+
+.spec4A{
+
+    top: 335px;
+    font-weight: bold;
+}
+
+#line4{
+
+    height: 0px;
+    width: 30px;
+    border: 1px solid #666;
+    position: absolute;
+    top: 380px;
+    left: 40px;
+
+}
+
+#aircraftsketch1{
+
+    height: 400px;
+    width: 280px;
+    /* border: 2px solid rgb(204,204,204); */
+    position: absolute;
+    left: 340px;
+    top: -2px;
+
+}
+
+#Box1{
+
+    height: 450px;
+    width: 250px;
+    border: 1px solid rgb(204,204,204);
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    display: inline-block;
+    
+}
+
+.spec5{
+
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    line-height: 1.7em; 
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    /* text-align: center; */
+    letter-spacing: 1px;
+}
+
+
+.spec6{
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    line-height: 1.7em; 
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    /* text-align: center; */
+    letter-spacing: 1px;
+}
+
+.spec6A{
+
+    top: 145px;
+    font-weight: bold;
+}
+
+#line6{
+
+    height: 0px;
+    width: 30px;
+    border: 1px solid #ffffff;
+    position: absolute;
+    top: 190px;
+    left: 30px;
+
+}
+
+
+.spec7{
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    line-height: 1.7em; 
+    position: absolute;
+    top: 210px;
+    left: 30px;
+    /* text-align: center; */
+    letter-spacing: 1px;
+}
+
+.spec7A{
+
+    top: 235px;
+    font-weight: bold;
+}
+
+#line7{
+
+    height: 0px;
+    width: 30px;
+    border: 1px solid #ffffff;
+    position: absolute;
+    top: 280px;
+    left: 30px;
+
+}
+
+
+.spec8{
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    line-height: 1.7em; 
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    /* text-align: center; */
+    letter-spacing: 1px;
+}
+
+.spec8A{
+
+    top: 325px;
+    font-weight: bold;
+}
+
+#line8{
+
+    height: 0px;
+    width: 30px;
+    border: 1px solid #ffffff;
+    position: absolute;
+    top: 370px;
+    left: 30px;
+
+}
+
+
+#Box2{
+
+    height: 450px;
+    width: 290px;
+    border: 1px solid rgb(204,204,204);
+    position: absolute;
+    top: 80px;
+    left: 380px;
+    display: inline-block;
+    
+}
+
+
+#Box3{
+
+    height: 450px;
+    width: 500px;
+    border: 1px solid rgb(204,204,204);
+    position: absolute;
+    top: 80px;
+    left: 740px;
+    display: inline-block;
+    
+}
+
+
+#Box3A{
+
+    height: 450px;
+    width: 250px;
+    border: 1px solid rgb(204,204,204);
+    /* position: absolute; */
+    top: 80px;
+    left: 740px;
+    display: inline-block;
+    
+}
+
+#Box3B{
+
+    height: 350px;
+    width: 200px;
+    border: 1px solid rgb(204,204,204);
+    /* position: absolute; */
+    top: -100px;
+    /* left: 1180px; */
+    display: inline-block;
+    
+}
+
+
+.spec9{
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    line-height: 1.7em; 
+    position: absolute; 
+    top: 120px;
+    left: 300px;
+    /* text-align: center; */
+    letter-spacing: 1px;
+}
+
+.spec9A{
+
+    top: 145px;
+    font-weight: bold;
+}
+
+#line9{
+
+    height: 0px;
+    width: 30px;
+    border: 1px solid #ffffff;
+    position: absolute; 
+    top: 190px;
+    left: 300px;
+
+}
+
+.spec10{
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    line-height: 1.7em; 
+    position: absolute; 
+    top: 210px;
+    left: 300px;
+    /* text-align: center; */
+    letter-spacing: 1px;
+}
+
+.spec10A{
+
+    top: 235px;
+    font-weight: bold;
+}
+
+#gotQuestions{
+
+    height: 600px;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+}
+
+#emailSign{
+
+    height: 600px;
+    width: 100%;
+    background-color: #1E1E1E;
+    position: relative;
+
+}
+
+#listDiv{
+
+    height: 390px;
+    width: 630px;
+    top: 80px;
+    /* border: 2px solid yellowgreen; */
+    position: absolute;
+    left: 630px;
+
+}
+
+.list1a{
+
+    color:rgb(255, 255, 255);
+    position: relative;
+    top: 10px;
+    float: left; 
+    padding-left: 40px;
+
+}
+
+.list1b{
+    margin-left: 110px;
+}
+
+
+.list1c{
+
+    color:rgb(255, 255, 255);
+    position: relative;
+    top: 110px;
+    left: -90px;
+    font-size: 22px;
+
+}
+
+.input1E{
+
+    height: 50px;
+    width: 550px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 250px;
+    left: 40px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1em;
+
+}
+
+
+.button3{
+
+    height: 50px;
+    width: 575px;
+    background-color: #1E1E1E;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 320px;
+    left: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 570px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button3:hover{
+
+    background-color: #666;
+    color: rgb(255, 255, 255);
+    
+}
+
+#bottomGreyline{
+
+    height: 0px; 
+    width: 1190px;
+    border: 0.75px solid rgb(255, 255, 255); 
+    position: absolute;
+    top: 500px;
+    left: 75px;
+
+}
+
+.copyR{
+
+    color: rgb(204, 204, 204);
+    font-size: 1em;
+    position: absolute;
+    top: 520px;
+    left: 75px;
+    font-weight: 700;
+}
+
+
+.fa-facebook-square{
+
+    font-size: 3em;
+    color: #666;
+    position: absolute;
+    top: 520px;
+    left: 1180px;
+    cursor: pointer;
+
+}
+
+
+.fa-youtube-square{
+
+    font-size: 3em;
+    color: #666;
+    position: absolute;
+    top: 520px;
+    left: 1230px;
+    cursor: pointer;
+
+}
+
+#bluePic{
+
+    
+    /* border: 2px solid #666; */
+    height: 600px;
+    width: 580px;
+    /* display: inline-block; */
+    top: 0px;
+    position: absolute;
+
+}
+
+#questionBox{
+
+    /* border: 2px solid #666; */
+    height: 600px;
+    width: 750px;
+    /* display: inline-block;  */
+    left: 590px;
+    position: absolute;
+    
+}
+
+.question1{
+
+    color: #1E1E1E;
+    font-family: sans-serif;
+    word-spacing: 5px;
+    font-weight: 540;
+    font-size: 26px;
+    position: absolute; 
+    top: 80px;
+    left: 60px;
+
+}
+
+
+.input2E{
+
+    height: 50px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 180px;
+    left: 350px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1em;
+    position: absolute;
+
+}
+
+.input3E{
+
+    height: 50px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 180px;
+    left: 60px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1em;
+    position: absolute;
+
+}
+
+.input4E{
+
+    height: 50px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 260px;
+    left: 60px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1em;
+    position: absolute;
+
+}
+
+.input5E{
+
+    height: 50px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 260px;
+    left: 350px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1em;
+    position: absolute;
+
+}
+
+.input6E{
+
+    height: 150px;
+    width: 545px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 340px;
+    left: 60px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1em;
+    position: absolute;
+
+}
+
+
+

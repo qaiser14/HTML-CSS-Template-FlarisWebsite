@@ -1,0 +1,758 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');
+
+*{
+
+    margin: 0;
+    padding:0;
+
+}
+
+body{
+
+    overflow-x: hidden;
+    font-family: Arial,'Barlow', sans-serif;
+}
+
+
+#navBar{
+
+    width: 100%;
+    height: 80px;
+    background-color: #1E1E1E;
+    position: fixed; 
+    top: -25px;
+    z-index: 10;
+    
+}
+
+
+#nav1{
+
+    color: #ffffff;
+    word-spacing: 50px;
+    font-size: 13px;
+    position: relative;
+    left: 510px;
+    top: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+li{
+    display: inline;
+
+}
+
+
+li:hover{
+
+    border-bottom: 2px solid red;
+    
+}
+
+
+#headingFlaris{
+
+    height: 120px;
+    width: 100%;
+    background-color: #1E1E1E;
+    position: relative;
+
+}
+
+
+#flarisMain{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image_Purchase/purchaseMain.jpg);
+    background-size: cover;
+    background-position: 75% 100%;
+    position: relative;
+    
+    
+}
+
+.blueHeading1{
+
+    color: #00aaff;
+    font-size: 27px;
+    position: absolute;
+    top: 10px;
+    left: 600px;
+    font-family: sans-serif;
+    word-spacing: 5px;
+    font-weight: 700;
+
+}   
+
+.whiteHeading1{
+
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 270px;
+    top: 50px
+
+}
+
+#features1{
+
+    height: 1900px;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+    top: -80px;  
+
+}
+
+
+.innoHeading1{
+
+    color: #333;
+    font-family: 'Barlow',sans-serif;
+    word-spacing: 5px;
+    font-weight: 700;
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    left: 560px;
+
+}
+
+.para1{
+
+    font-size: 17px;
+    /* font-weight: 400; */
+    color: #666;
+    line-height: 1.7em;
+    position: absolute;
+    top: 100px;
+    left: 330px;
+    text-align: center;
+
+}
+
+#leftgreyBox{
+
+    height: 600px;
+    width: 450px;
+    border: 2px solid rgb(204,204,204);
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    display: inline-block;
+    
+}
+
+.innoHeading2{
+
+    color: rgb(51,51,51);
+    font-family: 'Barlow',sans-serif;
+    word-spacing: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    position: absolute;
+    top: 80px;
+    left: 60px;
+
+}
+
+.para2{
+
+    font-size: 17px;
+    /* font-weight: 400; */
+    color: #666;
+    line-height: 1.7em;
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    text-align: center;
+
+}
+
+#rightgreyBox{
+
+    height: 600px;
+    width: 725px;
+    border: 2px solid rgb(204,204,204);
+    position: absolute;
+    top: 200px;
+    left: 570px;
+    display: inline-block;
+    
+
+}
+
+.image1{
+
+    height: 600px;
+    width: 725px;
+}
+
+#leftgreyBox2{
+
+    height: 400px;
+    width: 725px;
+    border: 2px solid rgb(204,204,204);
+    position: absolute;
+    top: 850px;
+    left: 80px;
+    display: inline-block;
+
+}
+
+.image1A{
+
+    height: 400px;
+    width: 725px;
+}
+
+#rightgreyBox2{
+
+    height: 400px;
+    width: 425px;
+    border: 2px solid rgb(204,204,204);
+    position: absolute;
+    top: 850px;
+    left: 870px;
+    display: inline-block;
+    
+}
+
+.innoH2B{
+
+    text-align: left;
+    left: 30px;
+}
+
+.para2B{
+
+    top: 140px;
+    text-align: left;
+    left: 30px;
+
+}
+
+.headA{
+
+    left: 430px;
+}
+
+.para1Pur{
+
+    left: 230px;
+}
+
+.para2Pur{
+
+    text-align: left;
+    left: 40px;
+}
+
+.headIND{
+
+    left: 40px;
+
+}
+
+.headIND2{
+
+    left: 40px;
+    top: 425px;
+
+}
+
+.para2Pur2{
+
+    text-align: left;
+    left: 40px;
+    top: 460px;
+}
+
+#leftgreyBoxA{
+
+    height: 550px;
+    width: 450px;
+    border: 2px solid rgb(204,204,204);
+    position: absolute;
+    top: 2000px;
+    left: 80px;
+    /* display: inline-block; */
+    
+}
+
+#rightgreyBoxA{
+
+    height: 550px;
+    width: 700px;
+    border: 2px solid rgb(204,204,204);
+    position: absolute;
+    top: 2000px;
+    left: 590px;
+    /* display: inline-block; */
+    
+}
+
+.image1B{
+
+    height: 550px;
+    width: 700px;
+}
+
+.para2F{
+
+    text-align: left;
+    left: 40px;
+}
+
+#PLR{
+
+    background-color: #1E1E1E;
+    height: 1600px;
+    width: 100%;
+    position: relative;
+
+}
+
+#purchase{
+
+    height: 400px;
+    width: 600px;
+    /*border: 2px solid blue; */
+    position: absolute;
+    left: 700px;
+    top: 30px;
+}
+
+.blue2{
+
+    left: 430px;
+}
+
+.white3{
+
+    left: 330px;
+
+}
+
+.innoHeading100{
+
+    color: #ffffff;
+    font-family: Arial,'Barlow',sans-serif;
+    word-spacing: 5px;
+    font-weight: 400;
+    font-size: 27px;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+
+}
+
+
+.paraPurchase{
+
+    position: absolute;
+    color: #ffffff;
+    top: 100px;
+    left: 40px;
+    word-spacing: 2px;
+    line-height: 22px;
+
+}
+
+
+.button100{
+
+    height: 50px;
+    width: 200px;
+    background-color: #1E1E1E;
+    border: 1px solid #00aaff;
+    position: absolute;
+    top: 260px;
+    left: 200px;
+    color: #00aaff;
+    font-size: 1em;
+    font-weight: 570px;
+    cursor: pointer;
+}
+
+
+.button100:hover{
+
+    background-color: #00aaff;
+    color: rgb(255, 255, 255);
+    
+}
+
+#lease{
+
+    height: 400px;
+    width: 600px;
+    /*border: 2px solid blue; */
+    position: absolute;
+    left: 50px;
+    top: 550px;
+}
+
+#rental{
+
+    height: 400px;
+    width: 600px;
+    /* border: 2px solid blue; */
+    position: absolute;
+    left: 700px;
+    top: 1080px;
+}
+
+#filloutContact{
+
+    height: 900px;
+    width: 100%;
+    color: #FFFFFF;
+    position: relative;
+
+}
+
+#bluePic{
+
+    
+    /* border: 2px solid #666; */
+    height: 775px;
+    width: 575px;
+    top: 0px;
+    position: absolute;
+
+}
+
+.question1{
+
+    color: #1E1E1E;
+    font-family: sans-serif;
+    word-spacing: 3px;
+    font-weight: 540;
+    font-size: 26px;
+    position: absolute; 
+    top: 100px;
+    left: 625px;
+}
+
+.input2E{
+
+    height: 50px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 200px;
+    left: 925px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1em;
+    position: absolute;
+
+}
+
+.input3E{
+
+    height: 50px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 200px;
+    left: 625px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1em;
+    position: absolute;
+
+}
+
+.input4E{
+
+    height: 50px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 275px;
+    left: 625px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1em;
+    position: absolute;
+
+}
+
+.input5E{
+
+    height: 50px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 275px;
+    left: 925px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1em;
+    position: absolute;
+
+}
+
+.input6E{
+
+    height: 150px;
+    width: 562px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 625px;
+    left: 625px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1em;
+    position: absolute;
+
+}
+
+.para2Pilot{
+
+    font-size: 17px;
+    /* font-weight: 400; */
+    color: #666;
+    line-height: 1.7em;
+    position: absolute;
+    top: 380px;
+    left: 625px;
+    text-align: center;
+
+}
+
+.yes1{
+
+    position: absolute;
+    left: 625px;
+    top: 412px;
+    
+}
+
+.yes2{
+
+    position: absolute;
+    left: 640px;
+    top: 410px;
+    color: #1E1E1E;
+    
+}
+
+.yes1A{
+
+    position: absolute;
+    left: 625px;
+    top: 432px;
+    
+}
+
+.yes2A{
+
+    position: absolute;
+    left: 640px;
+    top: 430px;
+    color: #1E1E1E;
+    
+}
+
+.inputPilot1{
+
+    height: 50px;
+    width: 560px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 475px;
+    left: 625px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1em;
+    position: absolute;
+
+}
+
+.inputPilot2{
+
+    height: 50px;
+    width: 560px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 550px;
+    left: 625px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1em;
+    position: absolute;
+
+}
+
+.button1{
+
+    height: 50px;
+    width: 180px;
+    background-color: #ffffff;
+    border: 1px solid #00aaff;
+    position: absolute;
+    top: 815px;
+    left: 1030px;
+    color: #00aaff;
+    font-size: 1em;
+    font-weight: 570px;
+    cursor: pointer;
+}
+
+.button1:hover{
+
+    background-color: rgb(27, 44, 65);
+    
+}
+
+#emailSign{
+
+    height: 600px;
+    width: 100%;
+    background-color: #1E1E1E;
+    position: relative;
+
+}
+
+#listDiv{
+
+    height: 390px;
+    width: 630px;
+    top: 80px;
+    /* border: 2px solid yellowgreen; */
+    position: absolute;
+    left: 630px;
+
+
+}
+
+.list1a{
+
+    color:rgb(255, 255, 255);
+    position: relative;
+    top: 10px;
+    float: left; 
+    padding-left: 40px;
+
+}
+
+
+.list1d{
+    margin-left: 300px; 
+    position: relative;
+}
+
+.list1c{
+
+    color:rgb(255, 255, 255);
+    position: relative;
+    top: 110px;
+    left: 0px;
+    font-size: 22px;
+
+}
+
+.input1E{
+
+    height: 50px;
+    width: 550px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 250px;
+    left: 40px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1em;
+
+}
+
+
+.button3{
+
+    height: 50px;
+    width: 575px;
+    background-color: #1E1E1E;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 320px;
+    left: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 570px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button3:hover{
+
+    background-color: #666;
+    color: rgb(255, 255, 255);
+    
+}
+
+#bottomGreyline{
+
+    height: 0px; 
+    width: 1190px;
+    border: 0.75px solid rgb(255, 255, 255); 
+    position: absolute;
+    top: 500px;
+    left: 75px;
+
+}
+
+.copyR{
+
+    color: rgb(204, 204, 204);
+    font-size: 1em;
+    position: absolute;
+    top: 520px;
+    left: 75px;
+    font-weight: 700;
+}
+
+.fa-youtube-square{
+
+    font-size: 3em;
+    color: #666;
+    position: absolute;
+    top: 520px;
+    left: 1230px;
+    cursor: pointer;
+
+}
+
+.fa-facebook-square{
+
+    font-size: 3em;
+    color: #666;
+    position: absolute;
+    top: 520px;
+    left: 1180px;
+    cursor: pointer;
+
+}
+
+.list1News{
+
+    color:rgb(255, 255, 255);
+    position: absolute;
+    top: 200px;
+    left: 45px;
+    font-size: 22px;
+
+}
+
+.list1ab{
+
+    position: absolute;
+    left: 220px;
+
+}

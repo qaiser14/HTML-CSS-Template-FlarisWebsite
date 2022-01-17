@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');
+
+*{
+
+    margin: 0;
+    padding:0;
+
+}
+
+body{
+
+    overflow-x: hidden;
+    font-family: Arial,'Barlow', sans-serif;
+}
+
+
+#navBar{
+
+    width: 100%;
+    height: 80px;
+    background-color: #1E1E1E;
+    position: fixed; 
+    top: -25px;
+    z-index: 10;
+    
+}
+
+#nav1{
+
+    color: #ffffff;
+    word-spacing: 50px;
+    font-size: 13px;
+    position: relative;
+    left: 510px;
+    top: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+li{
+    display: inline;
+
+}
+
+
+li:hover{
+
+    border-bottom: 2px solid red;
+    
+}
+
+#headingFlaris{
+
+    height: 120px;
+    width: 100%;
+    background-color: #1E1E1E;
+    position: relative;
+
+}
+
+#flarisMain{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image_PilotingCourses/pilotCoursesmain.jpg);
+    background-size: cover;
+    background-position: 75% 100%;
+    position: relative;
+    
+    
+}
+
+.blueHeading1{
+
+    color: #00aaff;
+    font-size: 27px;
+    position: absolute;
+    top: 10px;
+    left: 460px;
+    font-family: Arial'Barlow', sans-serif;
+    word-spacing: 5px;
+    font-weight: 650;
+
+}   
+
+.whiteHeading1{
+
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 500px;
+    top: 70px
+
+}
+
+.blueH1A{
+
+    left: 550px;
+    font-size: 30px;    
+}
+
+#pilot1{
+
+    height: 1775px;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+    top: -80px;
+    
+}
+
+.pilotHeading1{
+
+    color: #333;
+    font-family: Arial,'Barlow',sans-serif;
+    word-spacing: 5px;
+    font-weight: 540;
+    font-size: 30px;
+    position: absolute;
+    top: 50px;
+    left: 500px;
+
+}
+
+
+#leftgreyBox2A{
+
+    height: 450px;
+    width: 525px;
+    border: 2px solid rgb(204,204,204);
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    display: inline-block;
+    
+}
+
+.image1{
+
+    height: 450px;
+    width: 525px;
+}
+
+#rightgreyBox2A{
+
+    height: 455px;
+    width: 650px;
+    border: 2px solid rgb(204,204,204);
+    position: absolute;
+    top: 150px;
+    left: 625px;
+    display: inline-block;
+    box-sizing: border-box;
+    
+}
+
+
+.innoHeading2{
+
+    color: rgb(51,51,51);
+    font-family: Arial,'Barlow',sans-serif;
+    word-spacing: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    position: absolute;
+    top: 80px;
+    left: 60px;
+
+}
+
+.innoH2B{
+
+    text-align: left;
+}
+
+.innoH2C{
+
+    top: 430px;
+}
+
+.para2{
+
+    font-size: 17px;
+    /* font-weight: 400; */
+    color: #666;
+    line-height: 1.7em;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.moreInfo{
+
+    color: rgb(0, 170, 255);
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    padding-top: 250px;
+    padding-left: 60px;    
+
+}
+
+#rightgreyBox2B{
+
+    height: 455px;
+    width: 650px;
+    border: 2px solid rgb(204,204,204);
+    position: absolute;
+    top: 725px;
+    left: 625px;
+    display: inline-block;
+    box-sizing: border-box;
+    
+}
+
+.instructorHeading1{
+
+    color: #333;
+    font-family: Arial,'Barlow',sans-serif;
+    word-spacing: 5px;
+    font-weight: 540;
+    font-size: 30px;
+    position: absolute;
+    top: 650px;
+    left: 425px;
+
+}
+
+#leftgreyBox2B{
+
+    height: 450px;
+    width: 525px;
+    border: 2px solid rgb(204,204,204);
+    position: absolute;
+    top: 725px;
+    left: 0px;
+    display: inline-block;
+    
+}
+
+.moreInfo2{
+
+    color: rgb(0, 170, 255);
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    padding-top: 275px;
+    padding-left: 60px;    
+
+}
+
+#bluePic{
+
+    
+    border: 2px solid #666;
+    height: 500px;
+    width: 525px;
+    top: 1250px;
+    position: absolute;
+
+}
+
+.question1{
+
+    color: #1E1E1E;
+    font-family: sans-serif;
+    word-spacing: 5px;
+    font-weight: 540;
+    font-size: 26px;
+    position: absolute; 
+    top: 1300px;
+    left: 600px;
+
+}.paraContact{
+
+    position: absolute;
+    top: 1350px;
+    left: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    font-size: 17px;
+
+}
+
+.input2E{
+
+    height: 50px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 1450px;
+    left: 900px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1em;
+    position: absolute;
+
+}
+
+.input3E{
+
+    height: 50px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 1450px;
+    left: 600px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1em;
+    position: absolute;
+
+}
+
+.input4E{
+
+    height: 50px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 1525px;
+    left: 600px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1em;
+    position: absolute;
+
+}
+
+.input5E{
+
+    height: 50px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 1525px;
+    left: 900px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1em;
+    position: absolute;
+
+}
+
+.input6E{
+
+    height: 150px;
+    width: 555px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 1600px;
+    left: 600px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1em;
+    position: absolute;
+
+}
+
+#emailSign{
+
+    height: 600px;
+    width: 100%;
+    background-color: #1E1E1E;
+    position: relative;
+
+}
+
+.button1{
+
+    height: 50px;
+    width: 180px;
+    background-color: #ffffff;
+    border: 1px solid #00aaff;
+    position: absolute;
+    top: 1775px;
+    left: 1000px;
+    color: #00aaff;
+    font-size: 1em;
+    font-weight: 570px;
+    cursor: pointer;
+}
+
+.button1:hover{
+
+    background-color: rgb(27, 44, 65);
+    
+}
+
+
+#listDiv{
+
+    height: 390px;
+    width: 630px;
+    top: 80px;
+    /* border: 2px solid yellowgreen; */
+    position: absolute;
+    left: 630px;
+
+}
+
+.list1a{
+
+    color:rgb(255, 255, 255);
+    position: relative;
+    top: 10px;
+    float: left; 
+    padding-left: 40px;
+
+}
+
+
+.list1b{
+
+    padding-left: 120px;
+
+}
+
+.list1bA{ 
+    
+    padding-left: 120px;
+
+}
+
+
+.list1c{
+
+    color:rgb(255, 255, 255);
+    position: relative;
+    top: 200px;
+    left: -90px;
+    font-size: 20px;
+
+}
+
+
+.input1E{
+
+    height: 50px;
+    width: 550px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 250px;
+    left: 40px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1em;
+
+}
+
+
+.button3{
+
+    height: 50px;
+    width: 575px;
+    background-color: #1E1E1E;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 320px;
+    left: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 570px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button3:hover{
+
+    background-color: #666;
+    color: rgb(255, 255, 255);
+    
+}    
+
+#bottomGreyline{
+
+    height: 0px; 
+    width: 1190px;
+    border: 0.75px solid rgb(255, 255, 255); 
+    position: absolute;
+    top: 500px;
+    left: 75px;
+
+}
+
+.copyR{
+
+    color: rgb(204, 204, 204);
+    font-size: 1em;
+    position: absolute;
+    top: 520px;
+    left: 75px;
+    font-weight: 700;
+}
+
+.fa-facebook-square{
+
+    font-size: 3em;
+    color: #666;
+    position: absolute;
+    top: 520px;
+    left: 1180px;
+    cursor: pointer;
+
+}
+
+
+.fa-youtube-square{
+
+    font-size: 3em;
+    color: #666;
+    position: absolute;
+    top: 520px;
+    left: 1230px;
+    cursor: pointer;
+
+}

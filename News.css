@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');
+
+*{
+
+    margin: 0;
+    padding:0;
+
+}
+
+body{
+
+    overflow-x: hidden;
+    font-family: Arial,'Barlow', sans-serif;
+}
+
+#navBar{
+
+    width: 100%;
+    height: 80px;
+    background-color: #1E1E1E;
+    position: fixed; 
+    top: -25px;
+    z-index: 10;
+    
+}
+
+#nav1{
+
+    color: #ffffff;
+    word-spacing: 50px;
+    font-size: 13px;
+    position: relative;
+    left: 510px;
+    top: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+li{
+    display: inline;
+
+}
+
+
+li:hover{
+
+    border-bottom: 2px solid red;
+    
+}
+
+#headingFlaris{
+
+    height: 120px;
+    width: 100%;
+    background-color: #1E1E1E;
+    position: relative;
+
+}
+
+#flarisMain{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image_News/Newsmain.jpg);
+    background-size: cover;
+    background-position: 75% 100%;
+    position: relative;
+    
+    
+}
+
+.blueHeading1{
+
+    color: #00aaff;
+    font-size: 27px;
+    position: absolute;
+    top: 10px;
+    left: 600px;
+    font-family: sans-serif;
+    word-spacing: 5px;
+    font-weight: 700;
+
+}   
+
+.whiteHeading1{
+
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 270px;
+    top: 50px
+
+}
+
+.whitenews{
+
+    left: 400px;
+
+}
+
+#newsPress{
+
+    height: 1700px;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+}   
+
+#emailSign{
+
+    height: 600px;
+    width: 100%;
+    background-color: #1E1E1E;
+    position: relative;
+
+}
+
+#listDiv{
+
+    height: 390px;
+    width: 630px;
+    top: 80px;
+    /* border: 2px solid yellowgreen; */
+    position: absolute;
+    left: 630px;
+
+}
+
+.list1a{
+
+    color:rgb(255, 255, 255);
+    position: relative;
+    top: 10px;
+    float: left; 
+    padding-left: 40px;
+
+}
+
+
+.list1d{
+    margin-left: 300px; 
+    position: relative;
+}
+
+.list1c{
+
+    color:rgb(255, 255, 255);
+    position: relative;
+    top: 110px;
+    left: 0px;
+    font-size: 22px;
+
+}
+
+.input1E{
+
+    height: 50px;
+    width: 550px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 250px;
+    left: 40px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1em;
+
+}
+
+.list1News{
+
+    color:rgb(255, 255, 255);
+    position: absolute;
+    top: 200px;
+    left: 45px;
+    font-size: 22px;
+
+}
+
+.list1ab{
+
+    position: absolute;
+    left: 220px;
+
+}
+
+.input1E{
+
+    height: 50px;
+    width: 550px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 250px;
+    left: 40px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1em;
+
+}
+
+.button3{
+
+    height: 50px;
+    width: 575px;
+    background-color: #1E1E1E;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 320px;
+    left: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 570px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button3:hover{
+
+    background-color: #666;
+    color: rgb(255, 255, 255);
+    
+}
+
+#bottomGreyline{
+
+    height: 0px; 
+    width: 1190px;
+    border: 0.75px solid rgb(255, 255, 255); 
+    position: absolute;
+    top: 500px;
+    left: 75px;
+
+}
+
+.copyR{
+
+    color: rgb(204, 204, 204);
+    font-size: 1em;
+    position: absolute;
+    top: 520px;
+    left: 75px;
+    font-weight: 700;
+}
+
+.fa-youtube-square{
+
+    font-size: 3em;
+    color: #666;
+    position: absolute;
+    top: 520px;
+    left: 1230px;
+    cursor: pointer;
+
+}
+
+.fa-facebook-square{
+
+    font-size: 3em;
+    color: #666;
+    position: absolute;
+    top: 520px;
+    left: 1180px;
+    cursor: pointer;
+
+}
+
+.news1st{
+
+    height: 325px;
+    width: 94%;
+    border: 1px solid #666;
+    position: relative;
+    top: 80px;
+    left: 40px;
+
+}
+
+.newsHeadingA{
+
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 170, 255);
+    position: absolute;
+    left: 525px;
+    top: 20px;
+    cursor: pointer;
+    
+}
+
+.newsHeadingA1{
+
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+    position: absolute;
+    left: 530px;
+    top: 70px;
+    
+}
+
+.newsHeadingA2{
+
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+    position: absolute;
+    left: 530px;
+    top: 110px;
+    line-height: 25px;
+    
+}
+
+.news2nd{
+
+    height: 325px;
+    width: 94%;
+    border: 1px solid #666;
+    position: relative;
+    top: 140px;
+    left: 40px;
+
+}
+
+.newsHeadingB{
+
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 170, 255);
+    position: absolute;
+    left: 525px;
+    top: 20px;
+    cursor: pointer;
+    
+}
+
+.newsHeadingB1{
+
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+    position: absolute;
+    left: 530px;
+    top: 80px;
+    
+}
+
+.news3rd{
+
+    height: 325px;
+    width: 94%;
+    border: 1px solid #666;
+    position: relative;
+    top: 200px;
+    left: 40px;
+
+}
+
+.newsHeadingC{
+
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 170, 255);
+    position: absolute;
+    left: 525px;
+    top: 20px;
+    cursor: pointer;
+    
+}
+
+.news4th{
+
+    height: 325px;
+    width: 94%;
+    border: 1px solid #666;
+    position: relative;
+    top: 260px;
+    left: 40px;
+
+}
+
+#olderEntries{
+
+    height: 70px;
+    width: 200px;
+    /* border: 1px solid #666; */
+    position: absolute;
+    top: 1600px;
+    left: 40px;
+    box-sizing: border-box;   
+
+}
+
+.entry1{
+
+    padding-top: 25px;
+    cursor: pointer;
+    font-size: 1em;
+}
